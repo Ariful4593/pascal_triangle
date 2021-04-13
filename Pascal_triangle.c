@@ -7,7 +7,7 @@ int main()
 
     for(int j = 0; j <= n; j++){
         for (int c = 0; c <= (n - j - 2); c++)
-      printf(" ");
+        printf(" ");
         for(int i = 0; i <=j; i++){
             first = findNthFactorial(j);
             second = findRthFactorial(i);
